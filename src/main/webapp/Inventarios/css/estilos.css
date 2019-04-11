@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2018, 10:29:36 AM
+    Author     : fgb
+*/
+
+*{ /*configuraciones globales de la pagina*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+header{ /* espacio para el encabezado de la pagina*/
+	width:100%;
+        position: fixed;     
+}
+
+header nav{ /*ajustes para el tamaño de la barra de menu*/
+    font-family:Arial;  
+    padding: 0;
+	background:#9F150D;/*#000;*/
+	z-index:1500;
+        /*max-width:1000px;*/
+	width:100%;
+	margin:auto auto;
+
+}
+
+#sizq{
+	width:20%;
+	height:90%;
+	background-color:white;
+	float:left;
+	padding-bottom:10px;
+}
+
+#scent{
+	width:60%;
+	height:90%;
+	background-color:white;
+	float:left;
+}
+
+#sder{
+	width:20%;
+	height:90%;
+	background-color:white;
+	float:left;
+	padding:10px;
+}
+
+
+
+#tarac{
+	width:100%;
+	height:100%;
+	background-color:white;
+	padding-bottom:10px;
+}
+
+#modulo{
+    color:white;
+    width:10%;
+}
+
+#menu-principal{
+	width:100%;
+}  
+
+#menu-izquierdo{
+	width:90%;
+	float: left;
+	background:#9F150D;
+} 
+
+#menu-derecha{
+	width:10%;
+	float: left;
+	text-align: center;
+	background:#9F150D;
+}  
+
+#menu-derecha .menu li:hover{
+	background:#ccc;
+	width:100%;
+} 
+
+
+
+.menu li:hover{
+	background:#8A0829;
+}
+
+.menu li a:hover{
+	color:#000;	
+}
+.contenido{
+  width: 100%;
+  float: left;
+  margin-top: 80px;
+}
+

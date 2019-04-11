@@ -1,0 +1,254 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2018, 10:10:58 PM
+    Author     : Emilio Gorostieta
+*/
+
+*{ /*configuraciones globales de la pagina*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+header{ /* espacio para el encabezado de la pagina*/
+	width:100%;
+        position: fixed;       
+}
+table{
+    font-size: 12px;
+}
+
+header nav{ /*ajustes para el tamaño de la barra de menu*/
+    font-family:Arial;  
+    padding: 0;
+	background:#9F150D;/*#000;*/
+	z-index:1500;
+        /*max-width:1000px;*/
+	width:100%;
+	margin:auto auto;
+        
+        
+}
+#marco{
+    width:100%;
+    height:95%;
+    border-color:#9F150D;
+    
+    text-align: center;
+}
+#titulo_tabla{
+    font-weight: bold;
+}
+
+#sizq{
+	width:20%;
+	height:90%;
+	background-color:white;
+	float:left;
+	padding-bottom:10px;
+}
+
+#scent{
+	width:60%;
+	height:90%;
+       
+	background-color:white;
+	float:left;
+        font-family:  Arial;
+}
+
+#sder{
+	width:20%;
+	height:90%;
+	background-color:white;
+	float:left;
+	padding:10px;
+}
+
+
+
+#tarac{
+	width:100%;
+	height:100%;
+	background-color:white;
+	padding-bottom:10px;
+}
+
+#modulo{
+    color:white;
+    width:10%;
+}
+
+#menu-principal{
+	width:100%;
+}  
+
+#menu-izquierdo{
+	width:90%;
+	float: left;
+	background:#9F150D;
+} 
+
+#menu-derecha{
+	width:10%;
+	float: left;
+	text-align: center;
+	background:#9F150D;
+}  
+
+#menu-derecha .menu li:hover{
+	background:#ccc;
+	width:100%;
+} 
+
+.menu{
+	list-style:none;
+        width:80%;
+}
+
+.menu li{
+	display:inline-block;
+	position:relative;
+        padding: 15px;
+        color:white;
+        font-size: 18px;
+}
+
+.menu li a{
+	display:inline-block;
+	position:relative;
+        padding: 0;
+        text-decoration:none;
+        color:white;
+        font-size: 18px;
+}
+
+.menu li:hover{
+	background:#ccc;
+}
+
+.menu li a:hover{
+	color:#000;	
+}
+
+.contenido{
+  width: 100%;
+  float: left;
+  margin-top:7%;
+}
+
+.salir{
+	list-style:none;
+        width:10%;
+}
+
+.salir li{
+	display:inline-block;
+	position:relative;
+        padding: 15px;
+        color:white;
+        font-size: 18px;
+}
+
+.salir li a{
+	display:inline-block;
+	position:relative;
+        padding: 0;
+        text-decoration:none;
+        color:white;
+        font-size: 18px;
+}
+
+.salir li:hover{
+	background:#ccc;
+}
+
+.salir li a:hover{
+	color:#000;	
+}
+
+#est{
+    float: left;
+    margin: 0 auto; 
+    margin-left: 5%;
+    margin-right:5%;
+}
+
+#tabest{
+    
+  
+    margin: 0 auto;
+    margin-left:2%;
+    margin-right: 5%;
+    
+}
+
+#icon{
+    float: left;
+    margin: 0 auto;
+    margin-top: 5%; 
+    margin-left: 8%;
+    
+}
+
+#pro{
+    float: right;
+    margin: 0 auto;    
+    margin-top: 8%; 
+    margin-left:40%;
+    margin-right:3.5%;  
+}
+
+#bus{
+   
+  
+   
+}
+
+#btn{
+    margin-top: 5%; 
+    margin-left:10%;
+}
+
+#tablam{
+    
+    margin-top: 8%; 
+    margin-left:5%;
+}
+
+#tablam2{
+    
+    margin-top: 5%; 
+   
+}
+
+#btnm{
+    margin-top: 8%; 
+    margin-left:40%;
+}
+
+#general{
+    
+   float: left;
+    margin: 0 auto;
+    margin-top: 5%; 
+    margin-left: 8%;
+}
+
+#maxmin{
+    margin-top: 1%; 
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#codigo{
+    
+   
+    margin-left:5%;
+}

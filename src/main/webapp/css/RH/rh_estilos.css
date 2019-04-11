@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2018, 10:29:36 AM
+    Author     : fgb
+*/
+
+*{ /*configuraciones globales de la pagina*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+.tarac{
+	width:100%;
+	height:100%;
+	background-color:white;
+	padding-bottom:5px;
+        padding-top:5px;
+}
+
+.tabla{
+    width:100%;
+    height:100%;
+}
+
+.boton{
+    background-color:#9F150D;
+    width: 130px;
+}
+
+.departamento{
+    color:#FFFFFF;
+    background:#9F150D;
+    font-family:Arial;
+}
+
+td{
+    padding-bottom:2px;
+    padding-top:2px;
+}
+
+scroll-container {
+  display: block;
+  width: 100%;
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.color:hover{
+    background:#CCC;
+    color:#FFF;
+}
+
+.lateral{
+    background:rgba(0,0,0,0.04);
+}

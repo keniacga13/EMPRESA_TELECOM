@@ -1,0 +1,47 @@
+
+*{ /*configuraciones globales de la pagina*/
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+header{ /* espacio para el encabezado de la pagina*/
+	width:100%;       
+}
+
+header nav{ /*ajustes para el tamaño de la barra de menu*/
+    font-family:Arial;  
+    padding: 0;
+	background:#9F150D;/*#000;*/
+	z-index:1500;
+        /*max-width:1000px;*/
+	width:100%;
+	margin:auto auto; 
+}
+
+.leyendaH {
+    text-align:center;
+}
+.leyenda  ul {
+    list-style-type:none;
+    padding:0 10px;
+}
+.leyendaH ul {
+    display:inline-block;
+}
+.leyenda  ul>li {
+    font-size:14px;
+}
+.leyendaH ul>li {
+    float:left;
+    margin-right:10px;
+}
+.leyenda  ul>li>span {
+    width:12px;
+    height:12px;
+    display:inline-block;
+    margin-right:3px;
+}
+

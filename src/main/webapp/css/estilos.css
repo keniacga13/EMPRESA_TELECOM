@@ -1,0 +1,205 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/03/2018, 10:29:36 AM
+    Author     : fgb
+*/
+
+*{ /*configuraciones globales de la pagina*/
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+html,body,#menu-izquierdo
+{
+    width:100%;
+    height:100%;
+}
+/* login*/
+#login{
+    width: 55%;
+    height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+
+}
+#campo-login{
+    width: 70%;
+    height: 220px;
+    background:#9F150D;
+    color:white;    
+    margin-right: auto;
+    margin-left: auto;
+}
+#acceso{
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 15px;
+    font-family: Arial;
+}
+.boton{
+    text-align: right;
+}
+.boton input{
+    width:100px;
+    font-size: 15px;
+}
+
+legend{
+    background: #9F150D; 
+    text-align: center;
+    padding: 5px;
+}
+/*fin login*/
+.barra{/* cambiar el color de la barra de navegación*/
+    background:#9F150D;
+}
+.color:hover{    /* cambiar el color de los iconos al pasar el mouse sobre cada uno*/
+    background:#ccc;
+    color:#fff;
+}
+#submenu{ /* cambiar el color del div de los submenu*/
+    background:#9F150D;
+}
+#submenu2{ /* cambiar el color del div de los submenu*/
+    background:#9F150D;
+}
+#modulo{
+    color:white;
+    width:10%;
+}
+
+#menu-principal{
+    width:100%;
+    height: 50px;
+}  
+
+#menu-izquierdo{
+    width:90%;
+    float: left;
+    background:#9F150D;
+} 
+
+#menu-derecha{
+    width:10%;
+    float: left;
+    text-align: center;
+    background:#9F150D;
+}  
+
+#menu-derecha .menu li:hover{
+    background:#ccc;
+    width:100%;
+} 
+
+.salir{
+    list-style:none;
+    width:10%;
+}
+
+.salir li{
+    display:inline-block;
+    position:relative;
+    padding: 15px;
+    color:white;
+    font-size: 18px;
+}
+
+.salir li a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:20px 20px;
+}
+
+.salir li:hover{
+    background:#ccc;
+}
+
+.salir li a:hover{
+    color:#000;	
+}
+
+/* comienzan los estilos de las paginas de los modulos*/
+/*contenedor general*/
+.contenido{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+/*recursos humanos*/
+#sizq{
+    width:20%;
+    height:100%;
+    /*background-color:white;*/
+    float:left;
+
+    background:white;
+}
+
+#scent{
+    width:60%;
+    height:90%;
+    background-color:white;
+    float:left;
+}
+
+#sder{
+    width:20%;
+    height:90%;
+    background-color:white;
+    float:left;
+    padding:10px;
+}
+
+#tarac{
+    width:100%;
+    height:100%;
+    background-color:white;
+    padding-bottom:10px;
+}
+/*Contabilidad*/
+.edicion{
+    width: 100%;
+    height: 100%;
+}
+.busqueda input{
+    font-size: 12px;
+}
+.btizq{
+    width: 100%;    
+    border-collapse: collapse;
+}
+.btizq tr td{
+    border: black 1px solid;
+}
+.btizq tr td a{
+    text-decoration: none;
+    display:block;
+    padding: 15px;
+    color:black;
+    font-size: 15px;
+}
+
+.btizq tr td a:hover{
+    background:#ccc;
+    color:#000;
+}
+.seleccion{
+    margin-left: auto;
+    margin-right: auto; 
+}
+#edicion{
+    padding: 10px;
+    /*background:#F69C9C;*/
+}
+/*gerencia*/
+.textoCentrado{
+    text-align: center;
+}
