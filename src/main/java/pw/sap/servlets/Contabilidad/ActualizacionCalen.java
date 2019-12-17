@@ -20,7 +20,8 @@ import pw.sap.pojo.Contabilidad.Con_Calendario;
 
 /**
  *
- * @author fgb
+ * @author fgb 
+ * github: FranciscoGB03 :)
  */
 @WebServlet(name = "ActualizacionCalen", urlPatterns = {"/ActualizacionCalen"})
 public class ActualizacionCalen extends HttpServlet {
